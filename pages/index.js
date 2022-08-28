@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Hero from '../components/hero'
 import Nav from '../components/nav'
 import About from '../components/About'
-import Services from '../components/Services'
+import Services from '../components/services'
 
 
 export default function Home() {
