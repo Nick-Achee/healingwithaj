@@ -26,7 +26,7 @@ const products = [
 
 
 
-export const Services = () => {
+export default function Services() {
  
     return (
       <div className="bg-gradient-to-r from-yellow-200 via-green-200 to-green-300 px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
@@ -80,4 +80,3 @@ export const Services = () => {
   };
 
 
-  export default Services;
