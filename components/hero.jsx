@@ -8,8 +8,8 @@ const bgUrl = 'https://purecous.s3.us-east-2.amazonaws.com/HWA+BG+.mp4'
 const Hero = () => {
     return (
       <div>
-        <section className="flex flex-col max-h-96 justify-center overflow-hidden">
-      <video autoPlay loop muted playsInline className="w-full bg-cover brightness-75	relative center"
+        <section className="flex flex-col w-max content-evenly-cover bg-contain h-full min-h-max justify-center overflow-auto">
+      <video autoPlay loop muted playsInline className="brightness-75"
             src={bgUrl}
             />
   
