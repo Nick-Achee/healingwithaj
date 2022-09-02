@@ -33,3 +33,19 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 # healingwithaj
+
+
+
+
+ {services.map((service) => (
+    <a
+      key={id}
+      href="https://nextjs.org/docs"
+      className="card-body">
+      <h2 className="card-title">{title}</h2>
+<p>{des}</p>
+<div className="card-actions">
+<button className="btn btn-sm" ><a href={link} >Book Now</a></button>
+</div>
+    </a>
+   ))}

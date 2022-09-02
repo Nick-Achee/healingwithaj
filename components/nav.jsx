@@ -8,7 +8,7 @@ const Nav = () => {
     return (
       <div className="bg-[#ffffff] z-10 px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div className="flex items-center justify-between">
-         <div className='text-4xl font-mel text-black'>Healing with AJ</div>
+         <div className='text-4xl font-mel text-black'>Heal with AJ</div>
           <ul className="flex mx-10 items-center hidden space-x-8 lg:flex font-mel text-2xl">
             <li>
               <Link
@@ -22,7 +22,7 @@ const Nav = () => {
             </li>
             <li>
               <Link
-                href="/"
+                href="/#services"
                 aria-label="Our product"
                 title="Our product"
                 className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -32,7 +32,9 @@ const Nav = () => {
             </li>
             <li>
               <Link
-                href="/"
+                href="https://medium.com/@healwithaj"
+                target="_blank"
+rel="noopener noreferrer"
                 aria-label="Product pricing"
                 title="Product pricing"
                 className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -75,7 +77,7 @@ const Nav = () => {
                       <a
                        
                       >
-                       <div className='pt-2 text-3xl font-mel'>Healing with AJ</div>
+                       <div className='pt-2 text-3xl font-mel'>Heal with AJ</div>
                       </a></Link>
                     </div>
                     <div>
@@ -118,7 +120,9 @@ const Nav = () => {
                       </li>
                       <li>
                         <Link
-                          href="/"
+                          href="https://medium.com/@healwithaj"
+                          target="_blank"
+          rel="noopener noreferrer"
                           aria-label="Product pricing"
                           title="Product pricing"
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"

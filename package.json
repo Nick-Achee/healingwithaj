@@ -11,7 +11,9 @@
   "dependencies": {
     "@formspree/react": "^2.3.3",
     "@headlessui/react": "^1.6.6",
+    "@notionhq/client": "^2.1.1",
     "daisyui": "^2.24.0",
+    "dotenv": "^16.0.1",
     "next": "12.2.5",
     "react": "18.2.0",
     "react-dom": "18.2.0"
