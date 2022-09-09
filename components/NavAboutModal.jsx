@@ -47,9 +47,9 @@ export default function AboutModal() {
         <button
           type="button"
           onClick={openModal}
-          className="rounded-md bg-opacity-20  text-sm font-medium text-black hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
+          className="font-mel tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
         >
-          Read More
+          About
         </button>
       </div>
 

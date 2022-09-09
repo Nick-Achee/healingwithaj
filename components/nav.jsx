@@ -1,6 +1,6 @@
 import {React, useState} from 'react'
 import Link from 'next/link';
-
+import NavAboutModal from './NavAboutModal'
 
 const Nav = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,14 +11,7 @@ const Nav = () => {
          <div className='text-4xl font-mel text-black'>Heal with AJ</div>
           <ul className="flex mx-10 items-center hidden space-x-8 lg:flex font-mel text-2xl">
             <li>
-              <Link
-                href="/"
-                aria-label="Our product"
-                title="Our product"
-                className="font-mel tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-              > 
-                About
-              </Link>
+              <NavAboutModal />
             </li>
             <li>
               <Link
