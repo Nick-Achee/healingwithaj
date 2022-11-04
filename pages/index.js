@@ -14,8 +14,8 @@ export default function Home({services}) {
     <Nav />
     <Hero />
     <About />
-    <div  className="bg-gradient-to-r from-yellow-200 via-green-200 to-green-300 px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-        <div id="#services" className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+    <section id='#services'  className="bg-gradient-to-r from-yellow-200 via-green-200 to-green-300 px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+        <div id="#services"className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
           <div>
             <div className="inline-block px-3 py-px mb-4 text-xs font-mel tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
               Heal with AJ
@@ -45,7 +45,7 @@ export default function Home({services}) {
 </div>
 ))}
 </div>
-</div>  
+</section>  
 </div>
 )
 }

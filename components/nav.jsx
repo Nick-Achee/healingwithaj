@@ -15,8 +15,9 @@ const Nav = () => {
             </li>
             <li>
               <Link
-                href="/#services"
+                href="#services"
                 aria-label="Our product"
+                scroll={true}
                 title="Our product"
                 className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
