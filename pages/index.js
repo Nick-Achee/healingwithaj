@@ -14,14 +14,14 @@ export default function Home({services}) {
     <Nav />
     <Hero />
     <About />
-    <section id='services'  className="bg-gradient-to-r from-yellow-200 via-green-200 to-green-300 px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-        <div id="services"className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+    <section id='services'  className="bg-[url('https://purecous.s3.us-east-2.amazonaws.com/plants-l.jpg')] bg-cover h-screen w-screen px-4 py-16 mx-auto sm:max-w-xl md:max-w-full ">
+        <div className="max-w-lg mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
           <div>
             <div className="inline-block px-3 py-px mb-4 text-xs font-mel tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
               Heal with AJ
             </div>
           </div>
-          <div className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+          <div className=" mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
             <span className="relative inline-block">
               <span className="relative">The</span>
             </span>{' '}
@@ -31,11 +31,11 @@ export default function Home({services}) {
           
           </div>
         </div>
-        <div className="grid gap-8 row-gap-5 mb-8 md:row-gap-8 lg:grid-cols-4 sm:grid-cols-2">
+        <div className="px-10 grid gap-8 row-gap-5 mb-8 md:row-gap-8 lg:grid-cols-4 sm:grid-cols-2">
         {services.map((service) => (
     <div
       key={service.id}
-      className="card glass"> <div className="card-body">
+      className="card glass hover:shadow-2xl"> <div className="card-body">
       <div className="card-title mx-auto">{service.properties.service.title[0].plain_text}</div>
       <div className="card-paragraph mx-auto">{service.properties.description.rich_text[0].plain_text}</div>
 <div className="card-actions">
