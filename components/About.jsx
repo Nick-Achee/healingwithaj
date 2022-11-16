@@ -13,7 +13,7 @@ export default function About() {
              
             </div>
             <div className="max-w-xl mb-6">
-              <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+              <h2 className="max-w-lg  mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
                 About AJ?
                 <br className="hidden md:block" />
                
@@ -41,27 +41,25 @@ Sometimes it blows my mind that I am introducing myself as a healer. Coming from
               </a>
             </div>
           </div>
-          <div className="flex items-center justify-center  lg:pl-4">
-            <div className="flex flex-col items-end px-4 ">
+          <div className="flex items-center justify-center pb-20">
+            <div className="flex flex-col gap-5 gap-x-5 px-4 items-end sm:flex">
               <img
-                className="object-cover mb-6 rounded shadow-[12px_12px_0px_1px_rgba(10,10,5,20)] h-56 sm:h-56 xl:h-56 w-full sm:w-48 xl:w-56"
+                className=" hidden sm:block object-cover rounded h-56 sm:h-56 xl:h-56 w-full sm:w-48 xl:w-56"
                 src="https://purecous.s3.us-east-2.amazonaws.com/IMG_1612.jpg"
                 alt="About AJ headshot"
               />
                <img
-              className="object-cover w-20 h-20 rounded shadow-[12px_12px_0px_1px_rgba(10,10,5,20)] sm:h-32 xl:h-40 sm:w-32 xl:w-40"
+              className="hidden sm:block object-cover w-20 h-20 rounded  sm:h-32 xl:h-40 sm:w-32 xl:w-40"
               src="https://purecous.s3.us-east-2.amazonaws.com/IMG_1615.jpg"
               alt=""
             />
           </div>
-          <div className="px-3">
+          
             <img
-              className="object-cover w-40 h-40 rounded shadow-[12px_12px_0px_1px_rgba(10,10,5,20)] sm:h-64 xl:h-80 sm:w-64 xl:w-80"
+              className="object-cover w-80 h-80 rounded  sm:h-80 xl:h-80 sm:w-64 xl:w-80"
               src="https://purecous.s3.us-east-2.amazonaws.com/IMG_1614.jpg"
               alt=""
             />
-             
-            </div>
           </div>
         </div>
         
