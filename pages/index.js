@@ -38,17 +38,24 @@ export default function Home({services}) {
       className="card glass m-2 hover:shadow-2xl"> <div className="card-body">
       <div className="card-title mx-auto">{service.properties.service.title[0].plain_text}</div>
       <div className="card-paragraph mx-auto">{service.properties.description.rich_text[0].plain_text}</div>
-<div className="card-actions">
-<button className="btn btn-sm" ><Link target="_blank" rel="noreferrer" href={service.properties.siteLink.rich_text[0].plain_text} >Book Now</Link></button>
+<div className="card-actions"><button className="btn btn-sm" ><Link target="_blank" rel="noreferrer" href={service.properties.siteLink.rich_text[0].plain_text} >Book Now</Link></button>
+
 </div>
 </div>
 </div>
 ))}
 </div>
 </section>  
+<div className="flex items-center justify-center h-1/2 pb-10">
+ <Link target="_blank" rel="noreferrer" href="https://linktr.ee/healwithaj?fbclid=PAAabGgiw-yYnfkdw-VkoZOkRbqxL6c54RS2Itp0K227j_Sm9TV_fxO1K3oMs"><img src="https://purecous.s3.us-east-2.amazonaws.com/87390.png" className='h-20 w-20 flex items-center justify-center' /></Link>
+</div>
+
+
+
 </div>
 )
 }
+
 
 export async function getStaticProps() {
   const notion = new Client({ auth: process.env.NOTION_API_KEY });
@@ -63,3 +70,4 @@ export async function getStaticProps() {
     revalidate: 1,
   };
 }
+

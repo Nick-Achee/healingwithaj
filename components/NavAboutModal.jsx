@@ -47,7 +47,7 @@ export default function AboutModal() {
         <button
           type="button"
           onClick={openModal}
-          className="font-mel tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+          className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
         >
           About
         </button>

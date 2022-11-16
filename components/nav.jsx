@@ -93,21 +93,14 @@ rel="noopener noreferrer"
                   <nav>
                     <ul className="space-y-4">
                       <li>
-                        <Link
-                          href="/"
-                          aria-label="Our product"
-                          title="Our product"
-                          className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                        >
-                          About
-                        </Link>
+                      <NavAboutModal />
                       </li>
                       <li>
                         <Link
-                          href="/"
+                          href="/#services"
                           aria-label="Our product"
                           title="Our product"
-                          className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          className="font-mel tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           Services
                         </Link>
@@ -119,7 +112,7 @@ rel="noopener noreferrer"
           rel="noopener noreferrer"
                           aria-label="Product pricing"
                           title="Product pricing"
-                          className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          className="font-mel tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                          Blog
                         </Link>

@@ -41,23 +41,23 @@ Sometimes it blows my mind that I am introducing myself as a healer. Coming from
               </a>
             </div>
           </div>
-          <div className="flex items-center justify-center -mx-4 lg:pl-8">
-            <div className="flex flex-col items-end px-3">
+          <div className="flex items-center justify-center  lg:pl-4">
+            <div className="flex flex-col items-end px-4 ">
               <img
                 className="object-cover mb-6 rounded shadow-[12px_12px_0px_1px_rgba(10,10,5,20)] h-56 sm:h-56 xl:h-56 w-full sm:w-48 xl:w-56"
-                src="https://purecous.s3.us-east-2.amazonaws.com/IMG_8587-2.jpg"
+                src="https://purecous.s3.us-east-2.amazonaws.com/IMG_1612.jpg"
                 alt="About AJ headshot"
               />
                <img
               className="object-cover w-20 h-20 rounded shadow-[12px_12px_0px_1px_rgba(10,10,5,20)] sm:h-32 xl:h-40 sm:w-32 xl:w-40"
-              src="https://purecous.s3.us-east-2.amazonaws.com/IMG_8549-2.jpg"
+              src="https://purecous.s3.us-east-2.amazonaws.com/IMG_1615.jpg"
               alt=""
             />
           </div>
           <div className="px-3">
             <img
               className="object-cover w-40 h-40 rounded shadow-[12px_12px_0px_1px_rgba(10,10,5,20)] sm:h-64 xl:h-80 sm:w-64 xl:w-80"
-              src="https://purecous.s3.us-east-2.amazonaws.com/IMG_7810-2.jpg"
+              src="https://purecous.s3.us-east-2.amazonaws.com/IMG_1614.jpg"
               alt=""
             />
              
